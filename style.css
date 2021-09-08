@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 0.2em;
+  margin: 5%;
+  color: bisque;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8em;
+  margin: 1em;
+}
+
+form label {
+  font-size: 1.2em;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+form input {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 0.3em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.4em;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 0.5em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: bisque;
+}
+
+#result {
+  opacity: 0.8;
+  margin: 0.5em;
+}
